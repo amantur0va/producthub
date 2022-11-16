@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 @media (max-width: 1440px) {
   .container {
     width: 90%;
@@ -27,6 +28,8 @@
 }
 @media (max-width: 375px) {
 =======
+=======
+>>>>>>> da94115f4fd9e50c8bc385f99201579452107e20
 @media (max-width: 992px) {
   #header .header--nav a {
     padding: 0 14px;
@@ -43,11 +46,15 @@
   }
 }
 @media (max-width: 360px) {
+<<<<<<< HEAD
+>>>>>>> da94115f4fd9e50c8bc385f99201579452107e20
+=======
 >>>>>>> da94115f4fd9e50c8bc385f99201579452107e20
   #header .header--btn__two {
     display: none;
   }
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 @media (max-w idth: 320px) {
   #hero .hero--block h1 {
@@ -60,6 +67,8 @@
     font-size: 10px !important;
   }
 }
+=======
+>>>>>>> da94115f4fd9e50c8bc385f99201579452107e20
 =======
 >>>>>>> da94115f4fd9e50c8bc385f99201579452107e20
 

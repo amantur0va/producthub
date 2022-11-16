@@ -1,0 +1,112 @@
+
+@import "mixin";
+@import "reset";
+@import "media";
+
+#hero {
+  .hero {
+    @include around;
+
+    &--block {
+      h1 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        color: #22343D;
+      }
+
+      p {
+        font-weight: 400;
+        font-size: 18px;
+        color: #22343D;
+        padding: 20px 0;
+      }
+
+      &__btn {
+        display: flex;
+        align-items: center;
+
+
+        button {
+          @include btn;
+        }
+
+        &--icon {
+          padding: 0 20px;
+
+          a {
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            font-size: 16px;
+            color: #02897A;
+            text-decoration-line: underline;
+          }
+
+        }
+
+      }
+    }
+  }
+}
+
+
+
+
+#header {
+  .header {
+    @include around;
+    padding: 20px 0;
+
+    &--navbar {
+      display: flex;
+
+      h1 {
+        font-weight: 700;
+        font-size: 30px;
+        color: #173A56;
+        padding-left: 15px;
+      }
+    }
+
+    &--nav {
+      @include df;
+
+      a {
+        font-weight: 600;
+        font-size: 16px;
+        color: #22343D;
+        transition: .4s;
+        padding: 0 20px;
+
+        &:hover {
+          transform: scale(1.1);
+          cursor: pointer;
+          text-decoration-line: underline;
+          color: #173A56;
+        }
+      }
+    }
+
+    &--btn {
+      ion-icon{
+        color: #02897A;
+        width: 35px;
+        height: 20px;
+      }
+      &__one {
+
+        @include btn;
+        background: transparent;
+        color: black;
+
+      }
+
+      &__two {
+        @include btn;
+      }
+    }
+
+  }
+}
+
