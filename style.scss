@@ -206,6 +206,11 @@
               color: #22343D;
               padding: 10px 0;
             }
+          }
+
+          &--btn {
+            @include center;
+            margin-top: 50px;
 
 
           }
@@ -258,6 +263,12 @@
           color: #22343D;
           padding: 15px 15px;
 
+            button {
+              @include btn;
+              border: none;
+
+            }
+          }
 
         }
         ion-icon{
@@ -309,7 +320,9 @@
       }
     }
   }
-}
+
+
+
 
 
 
