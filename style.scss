@@ -1,5 +1,16 @@
+
 @import "reset";
 @import "mixin";
+@import "media";
+
+
+@import "media";
+@import "reset";
+@import "mixin";
+
+
+@import "mixin";
+@import "reset";
 @import "media";
 
 
@@ -40,11 +51,17 @@
     }
 
     &--btn {
+
       ion-icon {
+
+      ion-icon{
+
         color: #02897A;
         width: 35px;
         height: 20px;
       }
+
+
 
       &__one {
 
@@ -61,6 +78,8 @@
 
   }
 }
+
+
 
 #hero {
   .hero {
@@ -103,6 +122,7 @@
           }
 
         }
+
       }
     }
   }
@@ -146,9 +166,14 @@
 
         }
 
+
         &--btn {
           @include center;
           margin-top: 50px;
+
+        &--btn {
+          @include center;
+          margin-top: 50px  ;
 
           button {
             @include btn;
@@ -160,7 +185,6 @@
     }
   }
 }
-
 
 #management {
   .management {
@@ -229,6 +253,7 @@
     }
   }
 }
+
 #collaborative {
   .collaborative {
     @include df;
@@ -277,7 +302,89 @@
 
 
 
+
+#laptop{
+  padding-top: 50px;
+  .laptop{
+    @include df;
+    &--desc{
+      h6{
+        font-weight: 600;
+        font-size: 16px;
+        color: #22343D;
+      }
+      h1{
+        font-weight: 700;
+        font-size: 32px;
+        padding: 10px 0;
+        color: #22343D;
+      }
+      p{
+        font-weight: 400;
+        font-size: 16px;
+        color: #22343D;
+        padding: 10px 0;
+      }
+      &__the{
+
+      @include da;
+        h3{
+          font-weight: 400;
+          font-size: 16px;
+          color: #22343D;
+          padding: 15px 15px;
+
+
+        }
+        ion-icon{
+          background: #FF9900;
+          border-radius: 15px;
+          font-size: 25px;
+          color: #FFFFFF;
+        }
+
+      }
+      &__the1{
+
+        @include da;
+        h3{
+          font-weight: 400;
+          font-size: 16px;
+          color: #22343D;
+          padding: 15px 15px;
+
+
+        }
+        ion-icon{
+
+          background: #F03E3D;
+          border-radius: 15px;
+          font-size: 25px;
+          color: #FFFFFF;
+        }
+
+      }
+      &__the2{
+
+        @include da;
+        h3{
+          font-weight: 400;
+          font-size: 16px;
+          color: #22343D;
+          padding: 15px 15px;
+
+
+        }
+        ion-icon{
+          background: #4D8DFF;
+          border-radius: 15px;
+          font-size: 25px;
+          color: #FFFFFF;
+        }
+
+
       }
     }
   }
 }
+
