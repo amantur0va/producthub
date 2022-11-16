@@ -106,7 +106,18 @@
       }
     }
   }
-
+  #free{
+    .free {
+      padding-top: 90px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: space-evenly;
+      &--price{
+        margin: 20px 0;
+      }
+    }
+  }
   @media (max-width: 480px) {
     #management {
       .management {

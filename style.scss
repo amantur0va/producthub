@@ -177,6 +177,7 @@
         font-size: 16px;
         color: #22343D;
 
+
       }
 
       p {
@@ -231,7 +232,254 @@
 
         }
       }
+
+      &--block {
+        @include around;
+
+        &__vse {
+          &--text {
+            h3 {
+              font-weight: 600;
+              font-size: 22px;
+              color: #22343D;
+            }
+
+            p {
+              font-weight: 400;
+              font-size: 16px;
+              color: #22343D;
+              padding: 10px 0;
+            }
+
+
+          }
+
+          &--btn {
+            @include center;
+            margin-top: 50px;
+
+            button {
+              @include btn;
+              border: none;
+
+            }
+          }
+
+        }
+      }
     }
+  }
+}
+
+#laptop {
+  padding-top: 50px;
+
+  .laptop {
+    @include df;
+
+    &--desc {
+      h6 {
+        font-weight: 600;
+        font-size: 16px;
+        color: #22343D;
+      }
+
+      h1 {
+        font-weight: 700;
+        font-size: 32px;
+        padding: 10px 0;
+        color: #22343D;
+      }
+
+      p {
+        font-weight: 400;
+        font-size: 16px;
+        color: #22343D;
+        padding: 10px 0;
+      }
+
+      &__the {
+
+        @include da;
+
+        h3 {
+          font-weight: 400;
+          font-size: 16px;
+          color: #22343D;
+          padding: 15px 15px;
+
+
+        }
+
+        ion-icon {
+          background: #FF9900;
+          border-radius: 15px;
+          font-size: 25px;
+          color: #FFFFFF;
+        }
+
+      }
+
+      &__the1 {
+
+        @include da;
+
+        h3 {
+          font-weight: 400;
+          font-size: 16px;
+          color: #22343D;
+          padding: 15px 15px;
+
+
+        }
+
+        ion-icon {
+
+          background: #F03E3D;
+          border-radius: 15px;
+          font-size: 25px;
+          color: #FFFFFF;
+        }
+
+      }
+
+      &__the2 {
+
+        @include da;
+
+        h3 {
+          font-weight: 400;
+          font-size: 16px;
+          color: #22343D;
+          padding: 15px 15px;
+
+
+        }
+
+        ion-icon {
+          background: #4D8DFF;
+          border-radius: 15px;
+          font-size: 25px;
+          color: #FFFFFF;
+        }
+
+      }
+    }
+  }
+}
+
+#free {
+  .free {
+    padding-top: 90px;
+    @include evenly;
+
+    &--price {
+text-align: center;
+      padding: 20px 20px;
+      background: #FFFFFF;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+      border-radius: 8px;
+      width: 230px;
+      height: 270px;
+      h1 {
+        font-weight: 700;
+        font-size: 24px;
+        color: #22343D;
+      }
+
+      h2 {
+        font-weight: 400;
+        padding: 10px 0;
+        font-size: 16px;
+        color: #22343D;
+      }
+
+      &__lan {
+        @include around;
+
+
+
+        &--one {
+          h1 {
+            font-weight: 700;
+            font-size: 24px;
+            color: #02897A;
+          }
+
+          p {
+            font-weight: 400;
+            font-size: 16px;
+            color: #AFAFAF;
+          }
+        }
+      }
+      h3{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 22px;
+        color: #22343D;
+        padding: 10px 0;
+      }
+      button{
+        @include btn;
+        padding: 10px 20px;
+      }
+    }
+    &--price1 {
+      background: #02897A;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+      border-radius: 8px;
+
+      text-align: center;
+      padding: 20px 20px;
+      width: 230px;
+      height: 270px;
+      h1 {
+        font-weight: 700;
+        font-size: 24px;
+        color: #22343D;
+      }
+
+      h2 {
+        font-weight: 400;
+        padding: 10px 0;
+        font-size: 16px;
+        color: #22343D;
+      }
+
+      &__lan {
+        @include around;
+
+
+
+        &--one {
+          h1 {
+            font-weight: 700;
+            font-size: 24px;
+            color: #02897A;
+          }
+
+          p {
+            font-weight: 400;
+            font-size: 16px;
+            color: #AFAFAF;
+          }
+        }
+      }
+      h3{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 22px;
+        color: #22343D;
+        padding: 10px 0;
+      }
+      button{
+        @include btn;
+        padding: 10px 20px;
+        background: transparent;
+      }
+    }
+
   }
 }
 

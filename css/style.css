@@ -42,6 +42,17 @@
     width: 90%;
   }
 }
+#free .free {
+  padding-top: 90px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+#free .free--price {
+  margin: 20px 0;
+}
+
 @media (max-width: 480px) {
   #management .management--image img {
     width: 90%;
@@ -196,6 +207,17 @@ button {
     width: 90%;
   }
 }
+#free .free {
+  padding-top: 90px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+#free .free--price {
+  margin: 20px 0;
+}
+
 @media (max-width: 480px) {
   #management .management--image img {
     width: 90%;
@@ -476,6 +498,242 @@ button {
   border: none;
 }
 #management .management--for--block__vse--btn button:hover {
+  background: transparent;
+  border: #22343D;
+  transform: scale(1.1);
+  color: blue;
+}
+#management .management--for--block {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#management .management--for--block__vse--text h3 {
+  font-weight: 600;
+  font-size: 22px;
+  color: #22343D;
+}
+#management .management--for--block__vse--text p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #22343D;
+  padding: 10px 0;
+}
+#management .management--for--block__vse--btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+#management .management--for--block__vse--btn button {
+  background: #02897A;
+  font-weight: 700;
+  font-size: 16px;
+  color: #FFFFFF;
+  transition: 0.4s;
+  padding: 12px 20px;
+  border-radius: 4px;
+  border: none;
+}
+#management .management--for--block__vse--btn button:hover {
+  background: transparent;
+  border: #22343D;
+  transform: scale(1.1);
+  color: blue;
+}
+
+#laptop {
+  padding-top: 50px;
+}
+#laptop .laptop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#laptop .laptop--desc h6 {
+  font-weight: 600;
+  font-size: 16px;
+  color: #22343D;
+}
+#laptop .laptop--desc h1 {
+  font-weight: 700;
+  font-size: 32px;
+  padding: 10px 0;
+  color: #22343D;
+}
+#laptop .laptop--desc p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #22343D;
+  padding: 10px 0;
+}
+#laptop .laptop--desc__the {
+  display: flex;
+  align-items: center;
+}
+#laptop .laptop--desc__the h3 {
+  font-weight: 400;
+  font-size: 16px;
+  color: #22343D;
+  padding: 15px 15px;
+}
+#laptop .laptop--desc__the ion-icon {
+  background: #FF9900;
+  border-radius: 15px;
+  font-size: 25px;
+  color: #FFFFFF;
+}
+#laptop .laptop--desc__the1 {
+  display: flex;
+  align-items: center;
+}
+#laptop .laptop--desc__the1 h3 {
+  font-weight: 400;
+  font-size: 16px;
+  color: #22343D;
+  padding: 15px 15px;
+}
+#laptop .laptop--desc__the1 ion-icon {
+  background: #F03E3D;
+  border-radius: 15px;
+  font-size: 25px;
+  color: #FFFFFF;
+}
+#laptop .laptop--desc__the2 {
+  display: flex;
+  align-items: center;
+}
+#laptop .laptop--desc__the2 h3 {
+  font-weight: 400;
+  font-size: 16px;
+  color: #22343D;
+  padding: 15px 15px;
+}
+#laptop .laptop--desc__the2 ion-icon {
+  background: #4D8DFF;
+  border-radius: 15px;
+  font-size: 25px;
+  color: #FFFFFF;
+}
+
+#free .free {
+  padding-top: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#free .free--price {
+  text-align: center;
+  padding: 20px 20px;
+  background: #FFFFFF;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  width: 230px;
+  height: 270px;
+}
+#free .free--price h1 {
+  font-weight: 700;
+  font-size: 24px;
+  color: #22343D;
+}
+#free .free--price h2 {
+  font-weight: 400;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #22343D;
+}
+#free .free--price__lan {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#free .free--price__lan--one h1 {
+  font-weight: 700;
+  font-size: 24px;
+  color: #02897A;
+}
+#free .free--price__lan--one p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #AFAFAF;
+}
+#free .free--price h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #22343D;
+  padding: 10px 0;
+}
+#free .free--price button {
+  background: #02897A;
+  font-weight: 700;
+  font-size: 16px;
+  color: #FFFFFF;
+  transition: 0.4s;
+  padding: 12px 20px;
+  border-radius: 4px;
+  padding: 10px 20px;
+}
+#free .free--price button:hover {
+  background: transparent;
+  border: #22343D;
+  transform: scale(1.1);
+  color: blue;
+}
+#free .free--price1 {
+  background: #02897A;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  text-align: center;
+  padding: 20px 20px;
+  width: 230px;
+  height: 270px;
+}
+#free .free--price1 h1 {
+  font-weight: 700;
+  font-size: 24px;
+  color: #22343D;
+}
+#free .free--price1 h2 {
+  font-weight: 400;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #22343D;
+}
+#free .free--price1__lan {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#free .free--price1__lan--one h1 {
+  font-weight: 700;
+  font-size: 24px;
+  color: #02897A;
+}
+#free .free--price1__lan--one p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #AFAFAF;
+}
+#free .free--price1 h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #22343D;
+  padding: 10px 0;
+}
+#free .free--price1 button {
+  background: #02897A;
+  font-weight: 700;
+  font-size: 16px;
+  color: #FFFFFF;
+  transition: 0.4s;
+  padding: 12px 20px;
+  border-radius: 4px;
+  padding: 10px 20px;
+  background: transparent;
+}
+#free .free--price1 button:hover {
   background: transparent;
   border: #22343D;
   transform: scale(1.1);
