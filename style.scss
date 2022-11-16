@@ -166,6 +166,8 @@
     }
   }
 }
+
+
 #management {
   .management {
     padding-top: 90px;
@@ -271,38 +273,34 @@
   }
 }
 
-#laptop {
+
+
+#laptop{
   padding-top: 50px;
-
-  .laptop {
+  .laptop{
     @include df;
-
-    &--desc {
-      h6 {
+    &--desc{
+      h6{
         font-weight: 600;
         font-size: 16px;
         color: #22343D;
       }
-
-      h1 {
+      h1{
         font-weight: 700;
         font-size: 32px;
         padding: 10px 0;
         color: #22343D;
       }
-
-      p {
+      p{
         font-weight: 400;
         font-size: 16px;
         color: #22343D;
         padding: 10px 0;
       }
+      &__the{
 
-      &__the {
-
-        @include da;
-
-        h3 {
+      @include da;
+        h3{
           font-weight: 400;
           font-size: 16px;
           color: #22343D;
@@ -310,8 +308,7 @@
 
 
         }
-
-        ion-icon {
+        ion-icon{
           background: #FF9900;
           border-radius: 15px;
           font-size: 25px;
@@ -319,12 +316,10 @@
         }
 
       }
-
-      &__the1 {
+      &__the1{
 
         @include da;
-
-        h3 {
+        h3{
           font-weight: 400;
           font-size: 16px;
           color: #22343D;
@@ -332,8 +327,7 @@
 
 
         }
-
-        ion-icon {
+        ion-icon{
 
           background: #F03E3D;
           border-radius: 15px;
@@ -342,12 +336,10 @@
         }
 
       }
-
-      &__the2 {
+      &__the2{
 
         @include da;
-
-        h3 {
+        h3{
           font-weight: 400;
           font-size: 16px;
           color: #22343D;
@@ -355,8 +347,7 @@
 
 
         }
-
-        ion-icon {
+        ion-icon{
           background: #4D8DFF;
           border-radius: 15px;
           font-size: 25px;
@@ -374,7 +365,7 @@
     @include evenly;
 
     &--price {
-text-align: center;
+      text-align: center;
       padding: 20px 20px;
       background: #FFFFFF;
       box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
@@ -482,91 +473,6 @@ text-align: center;
 
   }
 }
-
-#laptop{
-  padding-top: 50px;
-  .laptop{
-    @include df;
-    &--desc{
-      h6{
-        font-weight: 600;
-        font-size: 16px;
-        color: #22343D;
-      }
-      h1{
-        font-weight: 700;
-        font-size: 32px;
-        padding: 10px 0;
-        color: #22343D;
-      }
-      p{
-        font-weight: 400;
-        font-size: 16px;
-        color: #22343D;
-        padding: 10px 0;
-      }
-      &__the{
-
-      @include da;
-        h3{
-          font-weight: 400;
-          font-size: 16px;
-          color: #22343D;
-          padding: 15px 15px;
-
-
-        }
-        ion-icon{
-          background: #FF9900;
-          border-radius: 15px;
-          font-size: 25px;
-          color: #FFFFFF;
-        }
-
-      }
-      &__the1{
-
-        @include da;
-        h3{
-          font-weight: 400;
-          font-size: 16px;
-          color: #22343D;
-          padding: 15px 15px;
-
-
-        }
-        ion-icon{
-
-          background: #F03E3D;
-          border-radius: 15px;
-          font-size: 25px;
-          color: #FFFFFF;
-        }
-
-      }
-      &__the2{
-
-        @include da;
-        h3{
-          font-weight: 400;
-          font-size: 16px;
-          color: #22343D;
-          padding: 15px 15px;
-
-
-        }
-        ion-icon{
-          background: #4D8DFF;
-          border-radius: 15px;
-          font-size: 25px;
-          color: #FFFFFF;
-        }
-
-      }
-    }
-  }
-}
-
 
 
 
