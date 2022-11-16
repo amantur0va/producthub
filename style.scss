@@ -2,58 +2,6 @@
 @import "mixin";
 @import "media";
 
-#collaborative {
-  .collaborative {
-    @include df;
-
-    &--block {
-      padding: 50px 0;
-
-      h1 {
-        padding: 10px 0;
-        font-weight: 600;
-        font-size: 16px;
-        line-height: 24px;
-        color: #22343D;
-      }
-
-      h2 {
-        font-weight: 700;
-        font-size: 32px;
-        line-height: 48px;
-        color: #22343D;
-      }
-
-      p {
-        padding: 20px 0;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 26px;
-        color: #22343D;
-      }
-
-      h3 {
-        font-weight: 600;
-        font-size: 16px;
-        line-height: 26px;
-        color: #22343D;
-      }
-
-      h4 {
-        font-weight: 600;
-        font-size: 16px;
-        line-height: 26px;
-        color: #22343D;
-
-
-
-
-
-
-      }
-    }
-  }
-}
 
 #header {
   .header {
@@ -277,6 +225,58 @@
           }
 
         }
+      }
+    }
+  }
+}
+#collaborative {
+  .collaborative {
+    @include df;
+
+    &--block {
+      padding: 50px 0;
+
+      h1 {
+        padding: 10px 0;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        color: #22343D;
+      }
+
+      h2 {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 48px;
+        color: #22343D;
+      }
+
+      p {
+        padding: 20px 0;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #22343D;
+      }
+
+      h3 {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 26px;
+        color: #22343D;
+      }
+
+      h4 {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 26px;
+        color: #22343D;
+
+
+
+
+
+
       }
     }
   }
