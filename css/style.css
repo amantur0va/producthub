@@ -8,6 +8,11 @@
     font-size: 14px;
   }
 }
+@media (max-width: 1024px) and (max-width: 1024px) {
+  #laptop .laptop {
+    flex-direction: column;
+  }
+}
 @media (max-width: 992px) {
   #header .header--nav a {
     padding: 0 14px;
@@ -41,6 +46,9 @@
   #management .management--image img {
     width: 90%;
   }
+  #laptop .laptop--photo img {
+    width: 90%;
+  }
 }
 @media (max-width: 420px) {
   #header .header--btn__one {
@@ -66,11 +74,22 @@
   }
 }
 @media (max-width: 360px) {
+  #laptop .laptop--desc p {
+    font-size: 11px !important;
+  }
+  #laptop .laptop--desc__the h3 {
+    font-size: 13px !important;
+  }
   #header .header--btn__two {
     display: none;
   }
   #header .header--btn__two {
     display: none;
+  }
+}
+@media (max-width: 320px) {
+  #hero .hero--block h1 {
+    font-size: 38px !important;
   }
 }
 * {
@@ -143,6 +162,11 @@ button {
     font-size: 14px;
   }
 }
+@media (max-width: 1024px) and (max-width: 1024px) {
+  #laptop .laptop {
+    flex-direction: column;
+  }
+}
 @media (max-width: 992px) {
   #header .header--nav a {
     padding: 0 14px;
@@ -176,6 +200,9 @@ button {
   #management .management--image img {
     width: 90%;
   }
+  #laptop .laptop--photo img {
+    width: 90%;
+  }
 }
 @media (max-width: 420px) {
   #header .header--btn__one {
@@ -201,11 +228,22 @@ button {
   }
 }
 @media (max-width: 360px) {
+  #laptop .laptop--desc p {
+    font-size: 11px !important;
+  }
+  #laptop .laptop--desc__the h3 {
+    font-size: 13px !important;
+  }
   #header .header--btn__two {
     display: none;
   }
   #header .header--btn__two {
     display: none;
+  }
+}
+@media (max-width: 320px) {
+  #hero .hero--block h1 {
+    font-size: 38px !important;
   }
 }
 #header .header {
@@ -404,6 +442,118 @@ button {
   font-size: 32px;
   padding: 10px 0;
   color: #22343D;
+}
+#management .management--for--block {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#management .management--for--block__vse--text h3 {
+  font-weight: 600;
+  font-size: 22px;
+  color: #22343D;
+}
+#management .management--for--block__vse--text p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #22343D;
+  padding: 10px 0;
+}
+#management .management--for--block__vse--btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+#management .management--for--block__vse--btn button {
+  background: #02897A;
+  font-weight: 700;
+  font-size: 16px;
+  color: #FFFFFF;
+  transition: 0.4s;
+  padding: 12px 20px;
+  border-radius: 4px;
+  border: none;
+}
+#management .management--for--block__vse--btn button:hover {
+  background: transparent;
+  border: #22343D;
+  transform: scale(1.1);
+  color: blue;
+}
+
+#laptop {
+  padding-top: 50px;
+}
+#laptop .laptop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#laptop .laptop--desc h6 {
+  font-weight: 600;
+  font-size: 16px;
+  color: #22343D;
+}
+#laptop .laptop--desc h1 {
+  font-weight: 700;
+  font-size: 32px;
+  padding: 10px 0;
+  color: #22343D;
+}
+#laptop .laptop--desc p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #22343D;
+  padding: 10px 0;
+}
+#laptop .laptop--desc__the {
+  display: flex;
+  align-items: center;
+}
+#laptop .laptop--desc__the h3 {
+  font-weight: 400;
+  font-size: 16px;
+  color: #22343D;
+  padding: 15px 15px;
+}
+#laptop .laptop--desc__the ion-icon {
+  background: #FF9900;
+  border-radius: 15px;
+  font-size: 25px;
+  color: #FFFFFF;
+}
+#laptop .laptop--desc__the1 {
+  display: flex;
+  align-items: center;
+}
+#laptop .laptop--desc__the1 h3 {
+  font-weight: 400;
+  font-size: 16px;
+  color: #22343D;
+  padding: 15px 15px;
+}
+#laptop .laptop--desc__the1 ion-icon {
+  background: #F03E3D;
+  border-radius: 15px;
+  font-size: 25px;
+  color: #FFFFFF;
+}
+#laptop .laptop--desc__the2 {
+  display: flex;
+  align-items: center;
+}
+#laptop .laptop--desc__the2 h3 {
+  font-weight: 400;
+  font-size: 16px;
+  color: #22343D;
+  padding: 15px 15px;
+}
+#laptop .laptop--desc__the2 ion-icon {
+  background: #4D8DFF;
+  border-radius: 15px;
+  font-size: 25px;
+  color: #FFFFFF;
 }
 
 /*# sourceMappingURL=style.css.map */
