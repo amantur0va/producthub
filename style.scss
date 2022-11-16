@@ -365,7 +365,6 @@
 }
 
 
-
 #laptop {
   padding-top: 50px;
 
@@ -465,7 +464,92 @@
 }
 
 
+#table {
+  padding-top: 90px;
 
+  .table {
+    @include evenly;
+
+    &--price {
+      text-align: center;
+
+      h1 {
+        font-weight: 700;
+        font-size: 34px;
+        color: #22343D;
+      }
+
+      p {
+        font-weight: 500;
+        padding: 10px 0;
+        font-size: 16px;
+        color: #22343D;
+      }
+    }
+
+    &--free {
+      padding-top: 10px;
+      margin-top: 20px;
+      background: #FFFFFF;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+      border-radius: 8px;
+      text-align: center;
+      width: 250px;
+      height: 280px;
+
+      h1 {
+        font-weight: 700;
+        font-size: 24px;
+        color: #22343D;
+      }
+
+      &__pri {
+        @include evenly;
+
+
+        &--img {
+          h1 {
+            font-weight: 700;
+            font-size: 24px;
+
+            color: #02897A;
+          }
+
+          p {
+            font-weight: 400;
+            font-size: 16px;
+            color: #AFAFAF;
+
+          }
+        }
+
+
+      }
+
+      p {
+        font-weight: 400;
+        font-size: 16px;
+        padding: 10px 0;
+        color: #22343D;
+      }
+
+      h3 {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 22px;
+        padding: 5px 0;
+        color: #22343D;
+      }
+
+      button {
+        margin-top: 10px;
+        @include btn;
+        padding: 10px 10px;
+      }
+    }
+
+  }
+}
 
 
 
