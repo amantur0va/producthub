@@ -1,1 +1,5 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"media.css"}
+<<<<<<< HEAD
+{"version":3,"sourceRoot":"","sources":["../media.scss"],"names":[],"mappings":"AAAA;EAEE;IACE;;;AAYJ;EAEI;IACE;;;AAUN;EAIQ;IACE;;;AAaV;EAIQ;IACE;;EAGF;IACE;;EAGF;IACE;;;AAMV;EAIU;IACE;;;AAUZ;EAIQ;IACE;;EAGF;IACE;;EAGA;IACE","file":"media.css"}
+=======
+{"version":3,"sourceRoot":"","sources":["../media.scss"],"names":[],"mappings":"AAYA;EAIQ;IACE;;;AASV;EAIQ;IACE;;;AAwBV;EAIQ;IACE;;;AAaV;EAIQ;IACE","file":"media.css"}
+>>>>>>> da94115f4fd9e50c8bc385f99201579452107e20
