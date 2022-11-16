@@ -65,28 +65,12 @@
     font-size: 12px !important;
   }
 }
-@media (max-width: 375px) and (max-width: 360px) {
-  #header .header #header .header--btn__two {
+@media (max-width: 360px) {
+  #header .header--btn__two {
     display: none;
   }
-}
-@media (max-width: 375px) and (max-width: 360px) {
-  #header .header #header .header--btn__two {
+  #header .header--btn__two {
     display: none;
-  }
-}
-@media (max-width: 375px) and (max-width: 360px) and (max-w idth: 320px) {
-  #header .header #management .management--for p {
-    font-size: 11px;
-  }
-  #header .header #hero .hero--block h1 {
-    font-size: 38px !important;
-  }
-  #header .header #hero .hero--block p {
-    font-size: 13px !important;
-  }
-  #header .header #hero .hero--block__btn button {
-    font-size: 10px !important;
   }
 }
 * {
@@ -216,28 +200,12 @@ button {
     font-size: 12px !important;
   }
 }
-@media (max-width: 375px) and (max-width: 360px) {
-  #header .header #header .header--btn__two {
+@media (max-width: 360px) {
+  #header .header--btn__two {
     display: none;
   }
-}
-@media (max-width: 375px) and (max-width: 360px) {
-  #header .header #header .header--btn__two {
+  #header .header--btn__two {
     display: none;
-  }
-}
-@media (max-width: 375px) and (max-width: 360px) and (max-w idth: 320px) {
-  #header .header #management .management--for p {
-    font-size: 11px;
-  }
-  #header .header #hero .hero--block h1 {
-    font-size: 38px !important;
-  }
-  #header .header #hero .hero--block p {
-    font-size: 13px !important;
-  }
-  #header .header #hero .hero--block__btn button {
-    font-size: 10px !important;
   }
 }
 #header .header {
@@ -411,54 +379,6 @@ button {
   border: #22343D;
   transform: scale(1.1);
   color: blue;
-}
-
-#hero .hero {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-#hero .hero--block h1 {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  color: #22343D;
-}
-#hero .hero--block p {
-  font-weight: 400;
-  font-size: 18px;
-  color: #22343D;
-  padding: 20px 0;
-}
-#hero .hero--block__btn {
-  display: flex;
-  align-items: center;
-}
-#hero .hero--block__btn button {
-  background: #02897A;
-  font-weight: 700;
-  font-size: 16px;
-  color: #FFFFFF;
-  transition: 0.4s;
-  padding: 12px 20px;
-  border-radius: 4px;
-}
-#hero .hero--block__btn button:hover {
-  background: transparent;
-  border: #22343D;
-  transform: scale(1.1);
-  color: blue;
-}
-#hero .hero--block__btn--icon {
-  padding: 0 20px;
-}
-#hero .hero--block__btn--icon a {
-  font-weight: 600;
-  display: flex;
-  align-items: center;
-  font-size: 16px;
-  color: #02897A;
-  text-decoration-line: underline;
 }
 
 #management .management {
