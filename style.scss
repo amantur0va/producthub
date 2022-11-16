@@ -1,3 +1,9 @@
+@import "media";
+@import "reset";
+@import "mixin";
+
+
+
 
 @import "mixin";
 @import "reset";
@@ -17,6 +23,24 @@
         padding-left: 15px;
       }
     }
+
+
+#header {
+  .header {
+    @include around;
+    padding: 20px 0;
+
+    &--navbar {
+      display: flex;
+
+      h1 {
+        font-weight: 700;
+        font-size: 30px;
+        color: #173A56;
+        padding-left: 15px;
+      }
+    }
+
 
     &--nav {
       @include df;
@@ -117,6 +141,7 @@
       text-align: center;
       color: #22343D;
       padding: 30px 0;
+
     }
 
     &--block {
@@ -152,5 +177,70 @@
     }
   }
 }
+#management{
+  .management{
+    padding-top: 90px;
+    @include df;
+    &--for{
+      h5{
+        font-weight: 600;
+        font-size: 16px;
+        color: #22343D;
+
+      }
+      p{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #22343D;
+        padding: 10px 0;
+      }
+      h1{
+        font-weight: 700;
+        font-size: 32px;
+        padding: 10px 0;
+        color: #22343D;
+
+
+    }
+
+    &--block {
+      @include around;
+
+      &__vse {
+        &--text {
+          h3 {
+            font-weight: 600;
+            font-size: 22px;
+            color: #22343D;
+          }
+
+          p {
+            font-weight: 400;
+            font-size: 16px;
+            color: #22343D;
+            padding: 10px 0;
+          }
+
+
+        }
+        &--btn {
+          @include center;
+          margin-top: 50px  ;
+          button {
+            @include btn;
+            border: none;
+
+          }
+        }
+
+      }
+    }
+  }
+}
+
+
+
+
 
 
