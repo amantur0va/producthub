@@ -1,6 +1,56 @@
-@import "reset";
+
 @import "mixin";
+@import "reset";
 @import "media";
+
+#hero {
+  .hero {
+    @include around;
+
+    &--block {
+      h1 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        color: #22343D;
+      }
+
+      p {
+        font-weight: 400;
+        font-size: 18px;
+        color: #22343D;
+        padding: 20px 0;
+      }
+
+      &__btn {
+        display: flex;
+        align-items: center;
+
+
+        button {
+          @include btn;
+        }
+
+        &--icon {
+          padding: 0 20px;
+
+          a {
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            font-size: 16px;
+            color: #02897A;
+            text-decoration-line: underline;
+          }
+
+        }
+
+      }
+    }
+  }
+}
+
+
 
 
 #header {
@@ -59,3 +109,4 @@
 
   }
 }
+
