@@ -1,3 +1,7 @@
+@import "reset";
+@import "mixin";
+@import "media";
+
 @import "media";
 @import "reset";
 @import "mixin";
@@ -5,6 +9,7 @@
 @import "mixin";
 @import "reset";
 @import "media";
+
 
 #header {
   .header {
@@ -41,27 +46,26 @@
         }
       }
     }
+  }
 
-    &--btn {
-      ion-icon {
-        color: #02897A;
-        width: 35px;
-        height: 20px;
-      }
-
-      &__one {
-
-        @include btn;
-        background: transparent;
-        color: black;
-
-      }
-
-      &__two {
-        @include btn;
-      }
+  &--btn {
+    ion-icon {
+      color: #02897A;
+      width: 35px;
+      height: 20px;
     }
 
+    &__two {
+      @include btn;
+    }
+
+    &__one {
+
+      @include btn;
+      background: transparent;
+      color: black;
+
+    }
   }
 }
 
@@ -150,20 +154,26 @@
 
         }
 
+    &--btn {
+      @include center;
+        margin-top: 50px;
+     &--btn {
+        @include center;
+        margin-top: 50px;
+
         &--btn {
-          @include center;
+        @include center;
           margin-top: 50px;
+          @include btn;
+          border: none;
 
-          button {
-            @include btn;
-            border: none;
-
-          }
         }
+        }
+      }
+      }
       }
     }
   }
-}
 
 
 #management {
@@ -366,7 +376,6 @@
 
 
 #laptop {
-  padding-top: 50px;
 
   .laptop {
     @include df;
@@ -457,6 +466,7 @@
           font-size: 25px;
           color: #FFFFFF;
         }
+
 
       }
     }
@@ -550,10 +560,6 @@
 
   }
 }
-
-
-
-
 
 
 
