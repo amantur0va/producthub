@@ -1,3 +1,9 @@
+
+@import "reset";
+@import "mixin";
+@import "media";
+
+
 @import "media";
 @import "reset";
 @import "mixin";
@@ -6,6 +12,7 @@
 @import "mixin";
 @import "reset";
 @import "media";
+
 
 #header {
   .header {
@@ -44,11 +51,18 @@
     }
 
     &--btn {
+
+      ion-icon {
+
       ion-icon{
+
         color: #02897A;
         width: 35px;
         height: 20px;
       }
+
+
+
       &__one {
 
         @include btn;
@@ -64,6 +78,9 @@
 
   }
 }
+
+
+
 #hero {
   .hero {
     @include around;
@@ -110,6 +127,7 @@
     }
   }
 }
+
 #product {
   background: url("../img/bg.png ") no-repeat center/cover;
   min-height: 70vh;
@@ -117,6 +135,7 @@
 
   .product {
     padding-top: 50px;
+
     h1 {
       font-weight: 700;
       font-size: 32px;
@@ -146,9 +165,16 @@
 
 
         }
+
+
+        &--btn {
+          @include center;
+          margin-top: 50px;
+
         &--btn {
           @include center;
           margin-top: 50px  ;
+
           button {
             @include btn;
             border: none;
@@ -159,6 +185,7 @@
     }
   }
 }
+
 #management {
   .management {
     padding-top: 90px;
@@ -316,6 +343,55 @@
   }
 }
 
+#collaborative {
+  .collaborative {
+    @include df;
+
+    &--block {
+      padding: 50px 0;
+
+      h1 {
+        padding: 10px 0;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        color: #22343D;
+      }
+
+      h2 {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 48px;
+        color: #22343D;
+      }
+
+      p {
+        padding: 20px 0;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #22343D;
+      }
+
+      h3 {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 26px;
+        color: #22343D;
+      }
+
+      h4 {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 26px;
+        color: #22343D;
+
+
+
+
+
+
+
 #laptop{
   padding-top: 50px;
   .laptop{
@@ -396,13 +472,10 @@
           color: #FFFFFF;
         }
 
+
       }
     }
   }
-
-
-
-
 
 
 
