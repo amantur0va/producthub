@@ -1,3 +1,303 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 
+.container {
+  margin: 0 auto;
+  width: 90%;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+input {
+  background: #FFFFFF;
+  border: 1px solid #BCD0E5;
+  border-radius: 4px;
+  padding: 15px 50px;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+#collaborative .collaborative {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#collaborative .collaborative--block {
+  padding: 50px 0;
+}
+#collaborative .collaborative--block h1 {
+  padding: 10px 0;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #22343D;
+}
+#collaborative .collaborative--block h2 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  color: #22343D;
+}
+#collaborative .collaborative--block p {
+  padding: 20px 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #22343D;
+}
+#collaborative .collaborative--block h3 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  color: #22343D;
+}
+#collaborative .collaborative--block h4 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  color: #22343D;
+}
+
+#header .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px 0;
+}
+#header .header--navbar {
+  display: flex;
+}
+#header .header--navbar h1 {
+  font-weight: 700;
+  font-size: 30px;
+  color: #173A56;
+  padding-left: 15px;
+}
+#header .header--nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#header .header--nav a {
+  font-weight: 600;
+  font-size: 16px;
+  color: #22343D;
+  transition: 0.4s;
+  padding: 0 20px;
+}
+#header .header--nav a:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  text-decoration-line: underline;
+  color: #173A56;
+}
+#header .header--btn ion-icon {
+  color: #02897A;
+  width: 35px;
+  height: 20px;
+}
+#header .header--btn__one {
+  background: #02897A;
+  font-weight: 700;
+  font-size: 16px;
+  color: #FFFFFF;
+  transition: 0.4s;
+  padding: 12px 20px;
+  background: transparent;
+  color: black;
+}
+#header .header--btn__one:hover {
+  background: transparent;
+  border: #22343D;
+  transform: scale(1.1);
+  color: blue;
+}
+#header .header--btn__two {
+  background: #02897A;
+  font-weight: 700;
+  font-size: 16px;
+  color: #FFFFFF;
+  transition: 0.4s;
+  padding: 12px 20px;
+}
+#header .header--btn__two:hover {
+  background: transparent;
+  border: #22343D;
+  transform: scale(1.1);
+  color: blue;
+}
+
+#hero .hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#hero .hero--block h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  color: #22343D;
+}
+#hero .hero--block p {
+  font-weight: 400;
+  font-size: 18px;
+  color: #22343D;
+  padding: 20px 0;
+}
+#hero .hero--block__btn {
+  display: flex;
+  align-items: center;
+}
+#hero .hero--block__btn button {
+  background: #02897A;
+  font-weight: 700;
+  font-size: 16px;
+  color: #FFFFFF;
+  transition: 0.4s;
+  padding: 12px 20px;
+}
+#hero .hero--block__btn button:hover {
+  background: transparent;
+  border: #22343D;
+  transform: scale(1.1);
+  color: blue;
+}
+#hero .hero--block__btn--icon {
+  padding: 0 20px;
+}
+#hero .hero--block__btn--icon a {
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: #02897A;
+  text-decoration-line: underline;
+}
+
+#product {
+  background: url("../img/bg.png ") no-repeat center/cover;
+  min-height: 70vh;
+  padding: 30px 0;
+}
+#product .product {
+  padding-top: 50px;
+}
+#product .product h1 {
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+  color: #22343D;
+  padding: 30px 0;
+}
+#product .product--block {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#product .product--block__vse--text h3 {
+  font-weight: 600;
+  font-size: 22px;
+  color: #22343D;
+}
+#product .product--block__vse--text p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #22343D;
+  padding: 10px 0;
+}
+#product .product--block__vse--btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+#product .product--block__vse--btn button {
+  background: #02897A;
+  font-weight: 700;
+  font-size: 16px;
+  color: #FFFFFF;
+  transition: 0.4s;
+  padding: 12px 20px;
+  border: none;
+}
+#product .product--block__vse--btn button:hover {
+  background: transparent;
+  border: #22343D;
+  transform: scale(1.1);
+  color: blue;
+}
+
+#management .management {
+  padding-top: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#management .management--for h5 {
+  font-weight: 600;
+  font-size: 16px;
+  color: #22343D;
+}
+#management .management--for p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #22343D;
+  padding: 10px 0;
+}
+#management .management--for h1 {
+  font-weight: 700;
+  font-size: 32px;
+  padding: 10px 0;
+  color: #22343D;
+}
+#management .management--for--block {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#management .management--for--block__vse--text h3 {
+  font-weight: 600;
+  font-size: 22px;
+  color: #22343D;
+}
+#management .management--for--block__vse--text p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #22343D;
+  padding: 10px 0;
+}
+#management .management--for--block__vse--btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+#management .management--for--block__vse--btn button {
+  background: #02897A;
+  font-weight: 700;
+  font-size: 16px;
+  color: #FFFFFF;
+  transition: 0.4s;
+  padding: 12px 20px;
+  border: none;
+}
+#management .management--for--block__vse--btn button:hover {
+  background: transparent;
+  border: #22343D;
+  transform: scale(1.1);
+  color: blue;
+}
 
 /*# sourceMappingURL=style.css.map */
