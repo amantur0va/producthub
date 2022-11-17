@@ -562,6 +562,34 @@
 }
 
 
+#this{
+
+  .this{
+
+    margin-left: 10%  ;
+    width: 968px;
+    margin-top: 9%;
+    background: #02897A;
+    border-radius: 32px;
+    @include evenly;
+    &--who{
+      p{
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 151.4%;
+        color: #FFFFFF;
+      }
+      button{
+        @include btn;
+        margin-top: 5%;
+        background: #FFFFFF;
+        color: #000;
+
+      }
+    }
+  }
+}
+
 
 
 
