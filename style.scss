@@ -4,6 +4,7 @@
 @import "media";
 
 
+
 @import "media";
 @import "reset";
 @import "mixin";
@@ -12,6 +13,7 @@
 @import "mixin";
 @import "reset";
 @import "media";
+
 
 
 #header {
@@ -54,13 +56,16 @@
 
       ion-icon {
 
+
+      ion-icon {
+
       ion-icon{
+
 
         color: #02897A;
         width: 35px;
         height: 20px;
       }
-
 
 
       &__one {
@@ -78,6 +83,8 @@
 
   }
 }
+
+
 
 
 
@@ -166,7 +173,6 @@
 
         }
 
-
         &--btn {
           @include center;
           margin-top: 50px;
@@ -174,6 +180,7 @@
         &--btn {
           @include center;
           margin-top: 50px  ;
+
 
           button {
             @include btn;
@@ -185,6 +192,7 @@
     }
   }
 }
+
 
 #management {
   .management {
@@ -217,24 +225,6 @@
       }
 
 
-      &--block {
-        @include around;
-
-        &__vse {
-          &--text {
-            h3 {
-              font-weight: 600;
-              font-size: 22px;
-              color: #22343D;
-            }
-
-            p {
-              font-weight: 400;
-              font-size: 16px;
-              color: #22343D;
-              padding: 10px 0;
-            }
-
 
       &--block {
         @include around;
@@ -253,6 +243,26 @@
               color: #22343D;
               padding: 10px 0;
             }
+
+
+      &--block {
+        @include around;
+
+        &__vse {
+          &--text {
+            h3 {
+              font-weight: 600;
+              font-size: 22px;
+              color: #22343D;
+            }
+
+            p {
+              font-weight: 400;
+              font-size: 16px;
+              color: #22343D;
+              padding: 10px 0;
+            }
+
 
 
 
@@ -282,6 +292,7 @@
     }
   }
 }
+
 
 #laptop{
   padding-top: 50px;
@@ -343,6 +354,7 @@
   }
 }
 
+
 #collaborative {
   .collaborative {
     @include df;
@@ -390,6 +402,66 @@
 
 
 
+
+
+      }
+    }
+  }
+}
+
+#strategies{
+  .strategies{
+    padding: 50px 0;
+    &--block{
+      h1{
+        font-weight: 400;
+        font-size: 10px;
+        letter-spacing: 1.4px;
+        text-transform: uppercase;
+        color: #E4E4E4;
+      }
+      h2{
+        padding: 10px;
+        font-weight: 700;
+        font-size: 34px;
+        color: #22343D;
+      }
+      p{
+        padding: 10px;
+        font-weight: 500;
+        font-size: 16px;
+        color: #22343D;
+      }
+    }
+    .swiper {
+      width: 100%;
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+    .swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 300px;
+      height: 300px;
+      p{
+        padding: 20px 0;
+        font-weight: 400;
+        font-size: 16px;
+        color: #22343D;
+      }
+      h3{
+        //padding: 1px 0;
+        font-weight: 700;
+        font-size: 24px;
+        color: #22343D;
+      }
+    }
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+    }
+  }
+}
 
 
 #laptop{
