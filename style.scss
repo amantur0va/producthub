@@ -53,21 +53,54 @@
       color: #02897A;
       width: 35px;
       height: 20px;
-    }
 
-    &__two {
-      @include btn;
-    }
+      &--btn {
 
-    &__one {
+        ion-icon {
 
-      @include btn;
-      background: transparent;
-      color: black;
+
+          ion-icon {
+
+            ion-icon {
+
+
+              color: #02897A;
+              width: 35px;
+              height: 20px;
+            }
+
+
+            &__one {
+
+              @include btn;
+              background: transparent;
+              color: black;
+
+            }
+
+            &__two {
+              @include btn;
+            }
+          }
+
+          &__two {
+            @include btn;
+          }
+
+          &__one {
+
+            @include btn;
+            background: transparent;
+            color: black;
+
+          }
+        }
+      }
 
     }
   }
 }
+
 
 #hero {
   .hero {
@@ -154,9 +187,6 @@
 
         }
 
-    &--btn {
-      @include center;
-        margin-top: 50px;
      &--btn {
         @include center;
         margin-top: 50px;
@@ -164,191 +194,206 @@
         &--btn {
         @include center;
           margin-top: 50px;
-          @include btn;
+
+     &--btn {
+        @include center;
+          margin-top: 50px;
+        @include btn;
           border: none;
+
+      &--btn {
+          @include center;
+          margin-top: 50px;
+
+
+          button {
+            @include btn;
+            border: none;
+
+          }
 
         }
         }
-      }
+        }
       }
       }
     }
   }
 
 
-#management {
-  .management {
-    padding-top: 90px;
-    @include df;
+  #management {
+    .management {
+      padding-top: 90px;
+      @include df;
 
-    &--for {
-      h5 {
-        font-weight: 600;
-        font-size: 16px;
-        color: #22343D;
+      &--for {
+        h5 {
+          font-weight: 600;
+          font-size: 16px;
+          color: #22343D;
 
-
-      }
-
-      p {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 26px;
-        color: #22343D;
-        padding: 10px 0;
-      }
-
-      h1 {
-        font-weight: 700;
-        font-size: 32px;
-        padding: 10px 0;
-        color: #22343D;
-
-
-      }
-
-      &--block {
-        @include around;
-
-        &__vse {
-          &--text {
-            h3 {
-              font-weight: 600;
-              font-size: 22px;
-              color: #22343D;
-            }
-
-            p {
-              font-weight: 400;
-              font-size: 16px;
-              color: #22343D;
-              padding: 10px 0;
-            }
-
-
-          }
-
-          &--btn {
-            @include center;
-            margin-top: 50px;
-
-            button {
-              @include btn;
-              border: none;
-
-            }
-          }
 
         }
-      }
+
+        p {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 26px;
+          color: #22343D;
+          padding: 10px 0;
+        }
+
+        h1 {
+          font-weight: 700;
+          font-size: 32px;
+          padding: 10px 0;
+          color: #22343D;
 
 
-      &--block {
-        @include around;
+        }
 
-        &__vse {
-          &--text {
-            h3 {
-              font-weight: 600;
-              font-size: 22px;
-              color: #22343D;
+        &--block {
+          @include around;
+
+          &__vse {
+            &--text {
+              h3 {
+                font-weight: 600;
+                font-size: 22px;
+                color: #22343D;
+              }
+
+              p {
+                font-weight: 400;
+                font-size: 16px;
+                color: #22343D;
+                padding: 10px 0;
+              }
+
+
             }
 
-            p {
-              font-weight: 400;
-              font-size: 16px;
-              color: #22343D;
-              padding: 10px 0;
+            &--btn {
+              @include center;
+              margin-top: 50px;
+
+              button {
+                @include btn;
+                border: none;
+
+              }
             }
 
+          }
+        }
 
-            &--block {
-              @include around;
 
-              &__vse {
-                &--text {
-                  h3 {
-                    font-weight: 600;
-                    font-size: 22px;
-                    color: #22343D;
+        &--block {
+          @include around;
+
+          &__vse {
+            &--text {
+              h3 {
+                font-weight: 600;
+                font-size: 22px;
+                color: #22343D;
+              }
+
+              p {
+                font-weight: 400;
+                font-size: 16px;
+                color: #22343D;
+                padding: 10px 0;
+              }
+
+
+              &--block {
+                @include around;
+
+                &__vse {
+                  &--text {
+                    h3 {
+                      font-weight: 600;
+                      font-size: 22px;
+                      color: #22343D;
+                    }
+
+                    p {
+                      font-weight: 400;
+                      font-size: 16px;
+                      color: #22343D;
+                      padding: 10px 0;
+                    }
+
+
                   }
 
-                  p {
-                    font-weight: 400;
-                    font-size: 16px;
-                    color: #22343D;
-                    padding: 10px 0;
+                  &--btn {
+                    @include center;
+                    margin-top: 50px;
+
+
                   }
 
+                  &--btn {
+                    @include center;
+                    margin-top: 50px;
 
-                }
+                    button {
+                      @include btn;
+                      border: none;
 
-                &--btn {
-                  @include center;
-                  margin-top: 50px;
-
-
-                }
-
-                &--btn {
-                  @include center;
-                  margin-top: 50px;
-
-                  button {
-                    @include btn;
-                    border: none;
-
+                    }
                   }
-                }
 
+                }
               }
             }
           }
         }
-      }
 
-      #laptop {
-        padding-top: 50px;
+        #laptop {
+          padding-top: 50px;
 
-        .laptop {
-          @include df;
+          .laptop {
+            @include df;
 
-          &--desc {
-            h6 {
-              font-weight: 600;
-              font-size: 16px;
-              color: #22343D;
-            }
+            &--desc {
+              h6 {
+                font-weight: 600;
+                font-size: 16px;
+                color: #22343D;
+              }
 
-            h1 {
-              font-weight: 700;
-              font-size: 32px;
-              padding: 10px 0;
-              color: #22343D;
-            }
+              h1 {
+                font-weight: 700;
+                font-size: 32px;
+                padding: 10px 0;
+                color: #22343D;
+              }
 
-            p {
-              font-weight: 400;
-              font-size: 16px;
-              color: #22343D;
-              padding: 10px 0;
-            }
+              p {
+                font-weight: 400;
+                font-size: 16px;
+                color: #22343D;
+                padding: 10px 0;
+              }
 
-            &__the {
+              &__the {
 
               @include da;
 
-              h3 {
+            h3 {
                 font-weight: 400;
                 font-size: 16px;
                 color: #22343D;
                 padding: 15px 15px;
 
-                button {
-                  @include btn;
-                  border: none;
+              } button {
+                @include btn;
+                border: none;
 
-                }
+              }
               }
 
             }
@@ -375,17 +420,22 @@
 }
 
 
+
 #laptop {
 
   .laptop {
-    @include df;
+  #laptop {
+    padding-top: 50px;
 
-    &--desc {
-      h6 {
-        font-weight: 600;
-        font-size: 16px;
-        color: #22343D;
-      }
+    .laptop {
+ @include df;
+
+      &--desc {
+        h6 {
+          font-weight: 600;
+          font-size: 16px;
+          color: #22343D;
+        }
 
       h1 {
         font-weight: 700;
@@ -394,23 +444,29 @@
         color: #22343D;
       }
 
-      p {
-        font-weight: 400;
-        font-size: 16px;
-        color: #22343D;
-        padding: 10px 0;
-      }
-
-      &__the {
-
-        @include da;
-
-        h3 {
+        p {
           font-weight: 400;
           font-size: 16px;
           color: #22343D;
-          padding: 15px 15px;
+          padding: 10px 0;
+        }
 
+        &__the {
+
+          @include da;
+
+          h3 {
+            font-weight: 400;
+            font-size: 16px;
+            color: #22343D;
+            padding: 15px 15px;
+
+            button {
+              @include btn;
+              border: none;
+
+            }
+          }
 
         }
 
@@ -422,56 +478,123 @@
         }
 
 
+        button {
+          @include btn;
+          border: none;
+
+        }
       }
 
-      &__the1 {
-
-        @include da;
-
-        h3 {
-          font-weight: 400;
-          font-size: 16px;
-          color: #22343D;
-          padding: 15px 15px;
+    }
+  }
+  }
+}
 
 
-        }
 
-        ion-icon {
 
-          background: #F03E3D;
-          border-radius: 15px;
-          font-size: 25px;
-          color: #FFFFFF;
-        }
+#collaborative {
+  .collaborative {
+    @include df;
 
+    &--block {
+      padding: 50px 0;
+    h1 {
+      font-weight: 700;
+      font-size: 32px;
+      padding: 10px 0;
+      color: #22343D;
+    }
+
+      p {
+     padding:20px 0;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #22343D;
       }
 
-      &__the2 {
+      h3 {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 26px;
+        color: #22343D;
+      }
 
-        @include da;
-
-        h3 {
-          font-weight: 400;
-          font-size: 16px;
-          color: #22343D;
-          padding: 15px 15px;
-
-
-        }
-
-        ion-icon {
-          background: #4D8DFF;
-          border-radius: 15px;
-          font-size: 25px;
-          color: #FFFFFF;
-        }
+      h4 {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 26px;
+        color: #22343D;
 
 
       }
     }
   }
 }
+
+#strategies {
+  .strategies {
+    padding: 50px 0;
+
+    &--block {
+      h1 {
+        font-weight: 400;
+        font-size: 10px;
+        letter-spacing: 1.4px;
+        text-transform: uppercase;
+        color: #E4E4E4;
+      }
+
+      h2 {
+        padding: 10px;
+        font-weight: 700;
+        font-size: 34px;
+        color: #22343D;
+      }
+
+      p {
+        padding: 10px;
+        font-weight: 500;
+        font-size: 16px;
+        color: #22343D;
+      }
+    }
+
+    .swiper {
+      width: 100%;
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+
+    .swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 300px;
+      height: 300px;
+
+      p {
+        padding: 20px 0;
+        font-weight: 400;
+        font-size: 16px;
+        color: #22343D;
+      }
+
+      h3 {
+        //padding: 1px 0;
+        font-weight: 700;
+        font-size: 24px;
+        color: #22343D;
+      }
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+    }
+  }
+}
+
 
 
 #table {
@@ -562,24 +685,26 @@
 }
 
 
-#this{
+#this {
 
-  .this{
+  .this {
 
-    margin-left: 10%  ;
+    margin-left: 10%;
     width: 968px;
     margin-top: 9%;
     background: #02897A;
     border-radius: 32px;
     @include evenly;
-    &--who{
-      p{
+
+    &--who {
+      p {
         font-weight: 600;
         font-size: 32px;
         line-height: 151.4%;
         color: #FFFFFF;
       }
-      button{
+
+      button {
         @include btn;
         margin-top: 5%;
         background: #FFFFFF;

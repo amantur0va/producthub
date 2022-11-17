@@ -29,7 +29,7 @@ button {
 }
 
 @media (max-width: 1440px) {
-  .container {
+  .container .container {
     width: 90%;
   }
 }
@@ -49,26 +49,35 @@ button {
   }
 }
 @media (max-width: 1024px) {
-  #collaborative .collaborative {
+  #collaborative .collaborative #collaborative .collaborative {
     flex-direction: column;
   }
-  #collaborative .collaborative img {
+  #collaborative .collaborative #collaborative .collaborative img {
     width: 90%;
   }
-  #laptop .laptop {
+  #collaborative .collaborative #laptop .laptop {
     flex-direction: column;
   }
 }
 @media (max-width: 992px) {
+  #laptop .laptop {
+    flex-direction: column;
+  }
+}
+@media (max-width: 992px) and (max-width: 992px) {
   #collaborative .collaborative {
     flex-direction: column;
   }
+}
+@media (max-width: 992px) {
   #what .what--general {
     flex-direction: column;
   }
   #what .what--general__stars {
     margin: 10px;
   }
+}
+@media (max-width: 992px) {
   #header .header--nav a {
     padding: 0 14px;
   }
@@ -129,6 +138,11 @@ button {
     width: 553px !important;
   }
 }
+@media (max-width: 768px) {
+  #collaborative .collaborative {
+    flex-direction: column;
+  }
+}
 @media (max-width: 650px) {
   #collaborative .collaborative {
     flex-direction: column;
@@ -146,6 +160,12 @@ button {
   #collaborative .collaborative #hero .hero--img img #hero .hero--img img {
     width: 90%;
   }
+  #collaborative .collaborative #hero .hero--img img #hero .hero--img #collaborative .collaborative {
+    flex-direction: column;
+  }
+  #collaborative .collaborative #hero .hero--img img #hero .hero--img #collaborative #hero .hero--img img #hero .hero--img img {
+    width: 90%;
+  }
 }
 @media (max-width: 480px) {
   #this .this {
@@ -156,11 +176,29 @@ button {
   #collaborative .collaborative {
     flex-direction: column;
   }
+}
+@media (max-width: 420px) {
+  #laptop .laptop--photo img {
+    width: 90%;
+  }
+  #collaborative .collaborative {
+    flex-direction: column;
+  }
   #collaborative .collaborative #laptop .laptop--photo img {
     width: 90%;
   }
 }
 @media (max-width: 420px) {
+  #collaborative .collaborative {
+    flex-direction: column;
+  }
+}
+@media (max-width: 400px) {
+  #collaborative .collaborative {
+    flex-direction: column;
+  }
+}
+@media (max-width: 360px) {
   #collaborative .collaborative {
     flex-direction: column;
   }
@@ -202,13 +240,35 @@ button {
   }
 }
 @media (max-width: 400px) {
-  #hero .hero--block h1 {
-    font-size: 33px !important;
+  #what .what--who p {
+    font-size: 15px !important;
   }
-  #hero .hero--block p {
+}
+@media (max-width: 360px) {
+  #collaborative .collaborative {
+    flex-direction: column;
+  }
+  #collaborative .collaborative #laptop .laptop--desc p {
     font-size: 13px !important;
   }
-  #hero .hero--block__btn button {
+  #collaborative .collaborative #laptop .laptop--desc__the h3 {
+    font-size: 15px !important;
+  }
+}
+@media (max-width: 320px) {
+  #collaborative .collaborative {
+    flex-direction: column;
+  }
+  #collaborative .collaborative #collaborative .collaborative {
+    flex-direction: column;
+  }
+  #collaborative .collaborative #collaborative .collaborative #hero .hero--block h1 {
+    font-size: 33px !important;
+  }
+  #collaborative .collaborative #collaborative .collaborative #hero .hero--block p {
+    font-size: 13px !important;
+  }
+  #collaborative .collaborative #collaborative .collaborative #hero .hero--block__btn button {
     font-size: 12px !important;
   }
 }
@@ -288,7 +348,7 @@ button {
   }
 }
 @media (max-width: 1440px) {
-  .container {
+  .container .container {
     width: 90%;
   }
 }
@@ -308,26 +368,35 @@ button {
   }
 }
 @media (max-width: 1024px) {
-  #collaborative .collaborative {
+  #collaborative .collaborative #collaborative .collaborative {
     flex-direction: column;
   }
-  #collaborative .collaborative img {
+  #collaborative .collaborative #collaborative .collaborative img {
     width: 90%;
   }
-  #laptop .laptop {
+  #collaborative .collaborative #laptop .laptop {
     flex-direction: column;
   }
 }
 @media (max-width: 992px) {
+  #laptop .laptop {
+    flex-direction: column;
+  }
+}
+@media (max-width: 992px) and (max-width: 992px) {
   #collaborative .collaborative {
     flex-direction: column;
   }
+}
+@media (max-width: 992px) {
   #what .what--general {
     flex-direction: column;
   }
   #what .what--general__stars {
     margin: 10px;
   }
+}
+@media (max-width: 992px) {
   #header .header--nav a {
     padding: 0 14px;
   }
@@ -388,6 +457,11 @@ button {
     width: 553px !important;
   }
 }
+@media (max-width: 768px) {
+  #collaborative .collaborative {
+    flex-direction: column;
+  }
+}
 @media (max-width: 650px) {
   #collaborative .collaborative {
     flex-direction: column;
@@ -405,6 +479,12 @@ button {
   #collaborative .collaborative #hero .hero--img img #hero .hero--img img {
     width: 90%;
   }
+  #collaborative .collaborative #hero .hero--img img #hero .hero--img #collaborative .collaborative {
+    flex-direction: column;
+  }
+  #collaborative .collaborative #hero .hero--img img #hero .hero--img #collaborative #hero .hero--img img #hero .hero--img img {
+    width: 90%;
+  }
 }
 @media (max-width: 480px) {
   #this .this {
@@ -415,11 +495,29 @@ button {
   #collaborative .collaborative {
     flex-direction: column;
   }
+}
+@media (max-width: 420px) {
+  #laptop .laptop--photo img {
+    width: 90%;
+  }
+  #collaborative .collaborative {
+    flex-direction: column;
+  }
   #collaborative .collaborative #laptop .laptop--photo img {
     width: 90%;
   }
 }
 @media (max-width: 420px) {
+  #collaborative .collaborative {
+    flex-direction: column;
+  }
+}
+@media (max-width: 400px) {
+  #collaborative .collaborative {
+    flex-direction: column;
+  }
+}
+@media (max-width: 360px) {
   #collaborative .collaborative {
     flex-direction: column;
   }
@@ -461,13 +559,35 @@ button {
   }
 }
 @media (max-width: 400px) {
-  #hero .hero--block h1 {
-    font-size: 33px !important;
+  #what .what--who p {
+    font-size: 15px !important;
   }
-  #hero .hero--block p {
+}
+@media (max-width: 360px) {
+  #collaborative .collaborative {
+    flex-direction: column;
+  }
+  #collaborative .collaborative #laptop .laptop--desc p {
     font-size: 13px !important;
   }
-  #hero .hero--block__btn button {
+  #collaborative .collaborative #laptop .laptop--desc__the h3 {
+    font-size: 15px !important;
+  }
+}
+@media (max-width: 320px) {
+  #collaborative .collaborative {
+    flex-direction: column;
+  }
+  #collaborative .collaborative #collaborative .collaborative {
+    flex-direction: column;
+  }
+  #collaborative .collaborative #collaborative .collaborative #hero .hero--block h1 {
+    font-size: 33px !important;
+  }
+  #collaborative .collaborative #collaborative .collaborative #hero .hero--block p {
+    font-size: 13px !important;
+  }
+  #collaborative .collaborative #collaborative .collaborative #hero .hero--block__btn button {
     font-size: 12px !important;
   }
 }
@@ -607,7 +727,7 @@ button {
 }
 
 @media (max-width: 1440px) {
-  .container {
+  .container .container {
     width: 90%;
   }
 }
@@ -627,26 +747,35 @@ button {
   }
 }
 @media (max-width: 1024px) {
-  #collaborative .collaborative {
+  #collaborative .collaborative #collaborative .collaborative {
     flex-direction: column;
   }
-  #collaborative .collaborative img {
+  #collaborative .collaborative #collaborative .collaborative img {
     width: 90%;
   }
-  #laptop .laptop {
+  #collaborative .collaborative #laptop .laptop {
     flex-direction: column;
   }
 }
 @media (max-width: 992px) {
+  #laptop .laptop {
+    flex-direction: column;
+  }
+}
+@media (max-width: 992px) and (max-width: 992px) {
   #collaborative .collaborative {
     flex-direction: column;
   }
+}
+@media (max-width: 992px) {
   #what .what--general {
     flex-direction: column;
   }
   #what .what--general__stars {
     margin: 10px;
   }
+}
+@media (max-width: 992px) {
   #header .header--nav a {
     padding: 0 14px;
   }
@@ -707,6 +836,11 @@ button {
     width: 553px !important;
   }
 }
+@media (max-width: 768px) {
+  #collaborative .collaborative {
+    flex-direction: column;
+  }
+}
 @media (max-width: 650px) {
   #collaborative .collaborative {
     flex-direction: column;
@@ -724,6 +858,12 @@ button {
   #collaborative .collaborative #hero .hero--img img #hero .hero--img img {
     width: 90%;
   }
+  #collaborative .collaborative #hero .hero--img img #hero .hero--img #collaborative .collaborative {
+    flex-direction: column;
+  }
+  #collaborative .collaborative #hero .hero--img img #hero .hero--img #collaborative #hero .hero--img img #hero .hero--img img {
+    width: 90%;
+  }
 }
 @media (max-width: 480px) {
   #this .this {
@@ -734,11 +874,29 @@ button {
   #collaborative .collaborative {
     flex-direction: column;
   }
+}
+@media (max-width: 420px) {
+  #laptop .laptop--photo img {
+    width: 90%;
+  }
+  #collaborative .collaborative {
+    flex-direction: column;
+  }
   #collaborative .collaborative #laptop .laptop--photo img {
     width: 90%;
   }
 }
 @media (max-width: 420px) {
+  #collaborative .collaborative {
+    flex-direction: column;
+  }
+}
+@media (max-width: 400px) {
+  #collaborative .collaborative {
+    flex-direction: column;
+  }
+}
+@media (max-width: 360px) {
   #collaborative .collaborative {
     flex-direction: column;
   }
@@ -780,13 +938,35 @@ button {
   }
 }
 @media (max-width: 400px) {
-  #hero .hero--block h1 {
-    font-size: 33px !important;
+  #what .what--who p {
+    font-size: 15px !important;
   }
-  #hero .hero--block p {
+}
+@media (max-width: 360px) {
+  #collaborative .collaborative {
+    flex-direction: column;
+  }
+  #collaborative .collaborative #laptop .laptop--desc p {
     font-size: 13px !important;
   }
-  #hero .hero--block__btn button {
+  #collaborative .collaborative #laptop .laptop--desc__the h3 {
+    font-size: 15px !important;
+  }
+}
+@media (max-width: 320px) {
+  #collaborative .collaborative {
+    flex-direction: column;
+  }
+  #collaborative .collaborative #collaborative .collaborative {
+    flex-direction: column;
+  }
+  #collaborative .collaborative #collaborative .collaborative #hero .hero--block h1 {
+    font-size: 33px !important;
+  }
+  #collaborative .collaborative #collaborative .collaborative #hero .hero--block p {
+    font-size: 13px !important;
+  }
+  #collaborative .collaborative #collaborative .collaborative #hero .hero--block__btn button {
     font-size: 12px !important;
   }
 }
@@ -903,22 +1083,12 @@ button {
   width: 35px;
   height: 20px;
 }
-#header--btn__two {
-  background: #02897A;
-  font-weight: 700;
-  font-size: 16px;
-  color: #FFFFFF;
-  transition: 0.4s;
-  padding: 12px 20px;
-  border-radius: 4px;
+#header--btn ion-icon--btn ion-icon ion-icon ion-icon {
+  color: #02897A;
+  width: 35px;
+  height: 20px;
 }
-#header--btn__two:hover {
-  background: transparent;
-  border: #22343D;
-  transform: scale(1.1);
-  color: blue;
-}
-#header--btn__one {
+#header--btn ion-icon--btn ion-icon ion-icon__one {
   background: #02897A;
   font-weight: 700;
   font-size: 16px;
@@ -929,7 +1099,54 @@ button {
   background: transparent;
   color: black;
 }
-#header--btn__one:hover {
+#header--btn ion-icon--btn ion-icon ion-icon__one:hover {
+  background: transparent;
+  border: #22343D;
+  transform: scale(1.1);
+  color: blue;
+}
+#header--btn ion-icon--btn ion-icon ion-icon__two {
+  background: #02897A;
+  font-weight: 700;
+  font-size: 16px;
+  color: #FFFFFF;
+  transition: 0.4s;
+  padding: 12px 20px;
+  border-radius: 4px;
+}
+#header--btn ion-icon--btn ion-icon ion-icon__two:hover {
+  background: transparent;
+  border: #22343D;
+  transform: scale(1.1);
+  color: blue;
+}
+#header--btn ion-icon--btn ion-icon__two {
+  background: #02897A;
+  font-weight: 700;
+  font-size: 16px;
+  color: #FFFFFF;
+  transition: 0.4s;
+  padding: 12px 20px;
+  border-radius: 4px;
+}
+#header--btn ion-icon--btn ion-icon__two:hover {
+  background: transparent;
+  border: #22343D;
+  transform: scale(1.1);
+  color: blue;
+}
+#header--btn ion-icon--btn ion-icon__one {
+  background: #02897A;
+  font-weight: 700;
+  font-size: 16px;
+  color: #FFFFFF;
+  transition: 0.4s;
+  padding: 12px 20px;
+  border-radius: 4px;
+  background: transparent;
+  color: black;
+}
+#header--btn ion-icon--btn ion-icon__one:hover {
   background: transparent;
   border: #22343D;
   transform: scale(1.1);
@@ -1047,54 +1264,75 @@ button {
   transform: scale(1.1);
   color: blue;
 }
-
-#management .management {
+#product .product--block__vse--btn--btn--btn--btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+#product .product--block__vse--btn--btn--btn--btn button {
+  background: #02897A;
+  font-weight: 700;
+  font-size: 16px;
+  color: #FFFFFF;
+  transition: 0.4s;
+  padding: 12px 20px;
+  border-radius: 4px;
+  border: none;
+}
+#product .product--block__vse--btn--btn--btn--btn button:hover {
+  background: transparent;
+  border: #22343D;
+  transform: scale(1.1);
+  color: blue;
+}
+#product #management .management {
   padding-top: 90px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-#management .management--for h5 {
+#product #management .management--for h5 {
   font-weight: 600;
   font-size: 16px;
   color: #22343D;
 }
-#management .management--for p {
+#product #management .management--for p {
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
   color: #22343D;
   padding: 10px 0;
 }
-#management .management--for h1 {
+#product #management .management--for h1 {
   font-weight: 700;
   font-size: 32px;
   padding: 10px 0;
   color: #22343D;
 }
-#management .management--for--block {
+#product #management .management--for--block {
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
-#management .management--for--block__vse--text h3 {
+#product #management .management--for--block__vse--text h3 {
   font-weight: 600;
   font-size: 22px;
   color: #22343D;
 }
-#management .management--for--block__vse--text p {
+#product #management .management--for--block__vse--text p {
   font-weight: 400;
   font-size: 16px;
   color: #22343D;
   padding: 10px 0;
 }
-#management .management--for--block__vse--btn {
+#product #management .management--for--block__vse--btn {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 50px;
 }
-#management .management--for--block__vse--btn button {
+#product #management .management--for--block__vse--btn button {
   background: #02897A;
   font-weight: 700;
   font-size: 16px;
@@ -1104,57 +1342,57 @@ button {
   border-radius: 4px;
   border: none;
 }
-#management .management--for--block__vse--btn button:hover {
+#product #management .management--for--block__vse--btn button:hover {
   background: transparent;
   border: #22343D;
   transform: scale(1.1);
   color: blue;
 }
-#management .management--for--block {
+#product #management .management--for--block {
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
-#management .management--for--block__vse--text h3 {
+#product #management .management--for--block__vse--text h3 {
   font-weight: 600;
   font-size: 22px;
   color: #22343D;
 }
-#management .management--for--block__vse--text p {
+#product #management .management--for--block__vse--text p {
   font-weight: 400;
   font-size: 16px;
   color: #22343D;
   padding: 10px 0;
 }
-#management .management--for--block__vse--text--block {
+#product #management .management--for--block__vse--text--block {
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
-#management .management--for--block__vse--text--block__vse--text h3 {
+#product #management .management--for--block__vse--text--block__vse--text h3 {
   font-weight: 600;
   font-size: 22px;
   color: #22343D;
 }
-#management .management--for--block__vse--text--block__vse--text p {
+#product #management .management--for--block__vse--text--block__vse--text p {
   font-weight: 400;
   font-size: 16px;
   color: #22343D;
   padding: 10px 0;
 }
-#management .management--for--block__vse--text--block__vse--btn {
+#product #management .management--for--block__vse--text--block__vse--btn {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 50px;
 }
-#management .management--for--block__vse--text--block__vse--btn {
+#product #management .management--for--block__vse--text--block__vse--btn {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 50px;
 }
-#management .management--for--block__vse--text--block__vse--btn button {
+#product #management .management--for--block__vse--text--block__vse--btn button {
   background: #02897A;
   font-weight: 700;
   font-size: 16px;
@@ -1164,48 +1402,48 @@ button {
   border-radius: 4px;
   border: none;
 }
-#management .management--for--block__vse--text--block__vse--btn button:hover {
+#product #management .management--for--block__vse--text--block__vse--btn button:hover {
   background: transparent;
   border: #22343D;
   transform: scale(1.1);
   color: blue;
 }
-#management .management--for #laptop {
+#product #management .management--for #laptop {
   padding-top: 50px;
 }
-#management .management--for #laptop .laptop {
+#product #management .management--for #laptop .laptop {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-#management .management--for #laptop .laptop--desc h6 {
+#product #management .management--for #laptop .laptop--desc h6 {
   font-weight: 600;
   font-size: 16px;
   color: #22343D;
 }
-#management .management--for #laptop .laptop--desc h1 {
+#product #management .management--for #laptop .laptop--desc h1 {
   font-weight: 700;
   font-size: 32px;
   padding: 10px 0;
   color: #22343D;
 }
-#management .management--for #laptop .laptop--desc p {
+#product #management .management--for #laptop .laptop--desc p {
   font-weight: 400;
   font-size: 16px;
   color: #22343D;
   padding: 10px 0;
 }
-#management .management--for #laptop .laptop--desc__the {
+#product #management .management--for #laptop .laptop--desc__the {
   display: flex;
   align-items: center;
 }
-#management .management--for #laptop .laptop--desc__the h3 {
+#product #management .management--for #laptop .laptop--desc__the h3 {
   font-weight: 400;
   font-size: 16px;
   color: #22343D;
   padding: 15px 15px;
 }
-#management .management--for #laptop .laptop--desc__the h3 button {
+#product #management .management--for #laptop .laptop--desc__the button {
   background: #02897A;
   font-weight: 700;
   font-size: 16px;
@@ -1215,19 +1453,19 @@ button {
   border-radius: 4px;
   border: none;
 }
-#management .management--for #laptop .laptop--desc__the h3 button:hover {
+#product #management .management--for #laptop .laptop--desc__the button:hover {
   background: transparent;
   border: #22343D;
   transform: scale(1.1);
   color: blue;
 }
-#management .management--for #laptop .laptop--desc ion-icon {
+#product #management .management--for #laptop .laptop ion-icon {
   background: #FF9900;
   border-radius: 15px;
   font-size: 25px;
   color: #FFFFFF;
 }
-#management .management--for #laptop .laptop--desc button {
+#product #management .management--for #laptop .laptop button {
   background: #02897A;
   font-weight: 700;
   font-size: 16px;
@@ -1237,82 +1475,168 @@ button {
   border-radius: 4px;
   border: none;
 }
-#management .management--for #laptop .laptop--desc button:hover {
+#product #management .management--for #laptop .laptop button:hover {
   background: transparent;
   border: #22343D;
   transform: scale(1.1);
   color: blue;
 }
 
-#laptop .laptop {
+#laptop .laptop #laptop {
+  padding-top: 50px;
+}
+#laptop .laptop #laptop .laptop {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-#laptop .laptop--desc h6 {
+#laptop .laptop #laptop .laptop--desc h6 {
   font-weight: 600;
   font-size: 16px;
   color: #22343D;
 }
-#laptop .laptop--desc h1 {
+#laptop .laptop #laptop .laptop--desc h1 {
   font-weight: 700;
   font-size: 32px;
   padding: 10px 0;
   color: #22343D;
 }
-#laptop .laptop--desc p {
+#laptop .laptop #laptop .laptop--desc p {
   font-weight: 400;
   font-size: 16px;
   color: #22343D;
   padding: 10px 0;
 }
-#laptop .laptop--desc__the {
+#laptop .laptop #laptop .laptop--desc__the {
   display: flex;
   align-items: center;
 }
-#laptop .laptop--desc__the h3 {
+#laptop .laptop #laptop .laptop--desc__the h3 {
   font-weight: 400;
   font-size: 16px;
   color: #22343D;
   padding: 15px 15px;
 }
-#laptop .laptop--desc__the ion-icon {
+#laptop .laptop #laptop .laptop--desc__the h3 button {
+  background: #02897A;
+  font-weight: 700;
+  font-size: 16px;
+  color: #FFFFFF;
+  transition: 0.4s;
+  padding: 12px 20px;
+  border-radius: 4px;
+  border: none;
+}
+#laptop .laptop #laptop .laptop--desc__the h3 button:hover {
+  background: transparent;
+  border: #22343D;
+  transform: scale(1.1);
+  color: blue;
+}
+#laptop .laptop #laptop .laptop--desc ion-icon {
   background: #FF9900;
   border-radius: 15px;
   font-size: 25px;
   color: #FFFFFF;
 }
-#laptop .laptop--desc__the1 {
+#laptop .laptop #laptop .laptop--desc button {
+  background: #02897A;
+  font-weight: 700;
+  font-size: 16px;
+  color: #FFFFFF;
+  transition: 0.4s;
+  padding: 12px 20px;
+  border-radius: 4px;
+  border: none;
+}
+#laptop .laptop #laptop .laptop--desc button:hover {
+  background: transparent;
+  border: #22343D;
+  transform: scale(1.1);
+  color: blue;
+}
+
+#collaborative .collaborative {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
-#laptop .laptop--desc__the1 h3 {
+#collaborative .collaborative--block {
+  padding: 50px 0;
+}
+#collaborative .collaborative--block h1 {
+  font-weight: 700;
+  font-size: 32px;
+  padding: 10px 0;
+  color: #22343D;
+}
+#collaborative .collaborative--block p {
+  padding: 20px 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #22343D;
+}
+#collaborative .collaborative--block h3 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  color: #22343D;
+}
+#collaborative .collaborative--block h4 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  color: #22343D;
+}
+
+#strategies .strategies {
+  padding: 50px 0;
+}
+#strategies .strategies--block h1 {
+  font-weight: 400;
+  font-size: 10px;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  color: #E4E4E4;
+}
+#strategies .strategies--block h2 {
+  padding: 10px;
+  font-weight: 700;
+  font-size: 34px;
+  color: #22343D;
+}
+#strategies .strategies--block p {
+  padding: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #22343D;
+}
+#strategies .strategies .swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#strategies .strategies .swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+#strategies .strategies .swiper-slide p {
+  padding: 20px 0;
   font-weight: 400;
   font-size: 16px;
   color: #22343D;
-  padding: 15px 15px;
 }
-#laptop .laptop--desc__the1 ion-icon {
-  background: #F03E3D;
-  border-radius: 15px;
-  font-size: 25px;
-  color: #FFFFFF;
-}
-#laptop .laptop--desc__the2 {
-  display: flex;
-  align-items: center;
-}
-#laptop .laptop--desc__the2 h3 {
-  font-weight: 400;
-  font-size: 16px;
+#strategies .strategies .swiper-slide h3 {
+  font-weight: 700;
+  font-size: 24px;
   color: #22343D;
-  padding: 15px 15px;
 }
-#laptop .laptop--desc__the2 ion-icon {
-  background: #4D8DFF;
-  border-radius: 15px;
-  font-size: 25px;
-  color: #FFFFFF;
+#strategies .strategies .swiper-slide img {
+  display: block;
+  width: 100%;
 }
 
 #table {
